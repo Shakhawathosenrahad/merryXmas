@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: rgb(0, 0, 0);">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merry christmas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,800;1,200&display=swap');
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        body {
+            background: #1d2455;
+            width: min(800px, 90%);
+            margin: 10px auto;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        body > img:first-child {
+            width: 200px;
+            padding: 20px;
+        }
+
+        body > img:nth-child(2) {
+            width: 100%;
+            object-fit: fill;
+        }
+
+        .wrapper {
+            background: #b9e4ff;
+            width: 100%;
+            margin-top: -10px;
+            padding: 20px 50px;
+        }
+
+        .wrapper h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            color: #ff564e;
+        }
+
+        .wrapper h2 {
+            margin: 20px auto;
+        }
+
+        .wrapper button {
+            padding: 15px 40px;
+            font-size: 2rem;
+            font-weight: 600;
+            border: none;
+            border-top-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+            color: #fff;
+            background: #ff564e;
+            cursor: pointer;
+        }
+
+        .wrapper button:hover {
+            background: #d83e35;
+        }
+
+        .news {
+            background: #b9e4ff;
+        }
+
+        .news h1 {
+            padding: 30px;
+            font-size: 3rem;
+            font-weight: 800;
+            color: #ff564e;
+        }
+
+        .news .row {
+            outline: 1px solid red;
+            padding: 20px;
+        }
+
+        .row .column {
+            display: inline-block;
+            width: 45%;
+            margin: 10px;
+            text-align: left;
+        }
+
+        @media (width <= 650px) {
+            .news .row {
+                flex-direction: column;
+            }
+
+            .row .column {
+                width: 100%;
+            }
+        }
+
+        .column img {
+            width: 100%;
+            border-radius: 15px;
+            object-fit: cover;
+        }
+
+        .column h2 {
+            color: #0098a9;
+            padding: 0 15px;
+        }
+
+        .column a {
+            padding: 0 15px;
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+
+        .news + img {
+            width: 100%;
+            background: #b9e4ff;
+        }
+
+        .social img {
+            width: 50px;
+            padding: 50px 5px 30px 5px;
+            font-size: 3rem;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .social ~ p {
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 500;
+            margin: 5px;
+        }
+
+        .social ~ p a {
+            color: #cf4f4f;
+            font-weight: 600;
+            margin: 0 5px;
+        }
+
+        .social ~ img {
+            width: 140px;
+            margin: 40px auto 20px auto;
+        }
+
+    </style>
+
+</head>
+<body>
+    <img src="https://shakhawathosenrahad.github.io/merryXmas/img/logo1.png">
+    <img src="https://shakhawathosenrahad.github.io/merryXmas/img/banner.gif">
+    <div class="wrapper">
+        <h1>Merry X-mas!</h1>
+        <h1>Ho-ho-ho!</h1>
+        <h2>On this Christmas Day, may you have everything you need to fill your home with peace and bliss. Wishing you a New Year full of promise and new opportunities!</h2>
+        <button>Learn More</button>
+    </div>
+    <div class="news">
+        <h1>Christmas news</h1>
+        <div class="row">
+            <div class="column">
+                <img src="https://shakhawathosenrahad.github.io/merryXmas/img/shanta1.png">
+                <h2>Christmas Trees: Festive and Flammable</h2>
+                <a href="#">Learn More &#8594;</a>
+            </div>
+            <div class="column">
+                <img src="https://shakhawathosenrahad.github.io/merryXmas/img/gifts.png">
+                <h2>10 Christmas gift ideas for everyone on your list</h2>
+                <a href="#">Learn More &#8594;</a>
+            </div>
+            <div class="column">
+                <img src="https://shakhawathosenrahad.github.io/merryXmas/img/tree.png">
+                <h2>My Christmas Gift to Myself: Pride</h2>
+                <a href="#">Learn More &#8594;</a>
+            </div>
+            <div class="column">
+                <img src="https://shakhawathosenrahad.github.io/merryXmas/img/shanta2.png">
+                <h2>It’s the Wrapping Paper That Counts</h2>
+                <a href="#">Learn More &#8594;</a>
+            </div>
+        </div>
+    </div>
+    <img src="https://shakhawathosenrahad.github.io/merryXmas/img/village.png">
+    <div class="social">
+        <a href="#"><img src="./img/facebook.png"></a>
+        <a href="#"><img src="./img/instagram.png"></a>
+        <a href="#"><img src="./img/pinterest.png"></a>
+        <a href="#"><img src="./img/x-circle.png"></a>
+        <a href="#"><img src="./img/youtube.png"></a>
+    </div>
+    <p>If you think this message was sent to you in error, you can <a href="#">unsubscribe</a>.</p>
+    <p>Please refer to our <a href="#">Privacy policy</a>for more information.</p>
+    <img src="https://shakhawathosenrahad.github.io/merryXmas/img/logo2.png">
+</body>
+</html>
